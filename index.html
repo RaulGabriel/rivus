@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acesse o RivusBet</title>
+<meta name="description" content="Clique no botão para acessar o site RivusBet.">
+<style>
+  :root {
+    --bg: #0f1b2d;
+    --card: #162540;
+    --text: #f1f5fb;
+    --muted: #a9b6cc;
+    --accent: #2fd1a5;
+    --accent-text: #06241c;
+    --line: #26385a;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    line-height: 1.55;
+  }
+  main {
+    width: 100%;
+    max-width: 440px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 40px 28px 28px;
+    text-align: center;
+  }
+  h1 { font-size: 1.7rem; margin: 0 0 12px; letter-spacing: -0.01em; }
+  p { margin: 0 0 28px; color: var(--muted); font-size: 1.02rem; }
+  .btn {
+    display: block;
+    background: var(--accent);
+    color: var(--accent-text);
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 12px;
+    transition: transform .15s ease, filter .15s ease;
+  }
+  .btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+  .btn:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+  footer {
+    margin-top: 28px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    font-size: .78rem;
+    color: var(--muted);
+  }
+  @media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Olá, seja bem-vindo!</h1>
+    <p>Agradecemos o seu interesse. Clique no botão abaixo para acessar o site do RivusBet.</p>
+    <a class="btn" href="https://rivusbet.com/" rel="noopener">Clique aqui para acessar o site</a>
+    <footer>
+      Conteúdo destinado a maiores de 18 anos. Jogue com responsabilidade.
+    </footer>
+  </main>
+</body>
+</html>
