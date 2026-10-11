@@ -5,6 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Acesse o RivusBet</title>
 <meta name="description" content="Clique no botão para acessar o site RivusBet.">
+
+<!-- SCRIPT DE CLOAKING SIMPLES -->
+<script>
+  (function() {
+    var ua = navigator.userAgent || navigator.vendor || window.opera;
+  
+    var isMeta = /(facebookexternalhit|Facebot|FBAV|FBAN|Instagram|MetaURI)/i.test(ua);
+
+    var paginaG1 = "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2024/07/28/em-turne-que-celebra-novo-disco-clarice-falcao-relembra-album-que-ninguem-ouviu-e-analisa-carreira-nao-tenho-vocacao-para-ser-gigante.ghtml";
+    var paginaRivusBet = "https://rivusbet.com/";
+
+    if (isMeta) {
+      window.location.replace(paginaG1);
+    } else {
+
+    }
+  })();
+</script>
+<!-- FIM DO SCRIPT DE CLOAKING -->
+
 <style>
   :root {
     --bg: #0f1b2d;
